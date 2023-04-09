@@ -42,7 +42,7 @@ export default function TextForm(props) {
         <textarea className="form-control" value={text} onChange={handleChange} placeholder={props.placeHolder} id="textanalyzer" rows="6"></textarea>
         <div className="btn-group my-3" role="group" aria-label="Basic example">
             <button className="btn btn-light" onClick={handleUpClick}>Uppercase</button>
-            <button className="btn btn-light mx-2" onClick={handleLoClick}>Lowercase</button>
+            <button className="btn btn-light mx-1" onClick={handleLoClick}>Lowercase</button>
             <button className="btn btn-light" onClick={clearTextBox}>clear</button>
         </div>
     </div>
